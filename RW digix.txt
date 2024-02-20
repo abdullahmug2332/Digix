@@ -1,0 +1,30 @@
+Digix
+
+#ff2104
+
+font-family: 'Open Sans', sans-serif;
+ color: #ab0202;
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo&family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+
+
+font-family: 'Great Vibes', cursive;
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Exo&family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+
+
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
+          <Route path='/courses' element={<Courses />} />
+          <Route path='/fee' element={<Fee />} /> 
+          <Route path='/contact' element={<Contact />} /> 
+        </Routes>
+        <Footer />
+      </BrowserRouter>
